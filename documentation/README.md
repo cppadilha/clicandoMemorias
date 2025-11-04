@@ -61,7 +61,7 @@ O arquivo `CNAME` já está configurado com `clicandomemorias.com.br`. Para usar
    
    - Tipo: CNAME
    - Host: www
-   - Valor: seu-usuario.github.io
+   - Valor: cppadilha.github.io
 
 2. Aguarde a propagação DNS (pode levar até 48h)
 

@@ -51,10 +51,10 @@ cd ~/Documents  # Mac/Linux
 cd C:\Users\SeuNome\Documents  # Windows
 
 # Clone o repositório
-git clone https://github.com/SEU-USUARIO/clicandomemorias.git
+git clone https://github.com/cppadilha/clicandoMemorias.git
 
 # Entre na pasta
-cd clicandomemorias
+cd clicandoMemorias
 ```
 
 ---

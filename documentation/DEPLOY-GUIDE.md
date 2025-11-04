@@ -44,7 +44,7 @@ Se já tem um repositório, pule para o passo 2.
 
 ```bash
 # Clone o repositório
-git clone https://github.com/SEU-USUARIO/clicandomemorias.git
+git clone https://github.com/cppadilha/clicandoMemorias.git
 cd clicandomemorias
 
 # Adicione todos os arquivos
@@ -69,7 +69,7 @@ git push origin main
    - Folder: **/ (root)**
 4. Clique em **Save**
 5. Aguarde 1-2 minutos
-6. Acesse: `https://SEU-USUARIO.github.io/clicandomemorias/`
+6. Acesse: `https://cppadilha.github.io/clicandoMemorias/`
 
 ✅ **Site publicado!**
 
@@ -101,7 +101,7 @@ TTL: 3600
 **Tipo CNAME**:
 ```
 Host: www
-Valor: SEU-USUARIO.github.io
+Valor: cppadilha.github.io
 TTL: 3600
 ```
 

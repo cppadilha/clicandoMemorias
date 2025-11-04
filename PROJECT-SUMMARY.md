@@ -256,7 +256,7 @@ clicandomemorias/
 
 ### Site
 - **Produção**: https://clicandomemorias.com.br
-- **GitHub**: https://github.com/[USUARIO]/clicandomemorias
+- **GitHub**: https://github.com/cppadilha/clicandoMemorias.git
 
 ### Carla Padilha
 - **WhatsApp**: (47) 9 8457-8291
