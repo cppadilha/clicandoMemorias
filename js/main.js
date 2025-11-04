@@ -44,7 +44,7 @@
         // SMOOTH SCROLL COM OFFSET PARA NAVEGAÇÃO FIXA
         // ============================================
         const smoothScrollLinks = document.querySelectorAll('a[href^="#"]');
-        const navHeight = document.querySelector('nav').offsetHeight;
+        //const navHeight = document.querySelector('nav').offsetHeight;
         
         smoothScrollLinks.forEach(link => {
             link.addEventListener('click', function(e) {
@@ -61,6 +61,8 @@
                 if (targetElement) {
                     e.preventDefault();
                     
+                    const navHeight = document.querySelector('nav').offsetHeight; 
+                    
                     const targetPosition = targetElement.getBoundingClientRect().top + window.pageYOffset;
                     const offsetPosition = targetPosition - navHeight - 20;
                     
@@ -74,7 +76,7 @@
                     
                     // Move o foco para o elemento alvo (acessibilidade)
                     targetElement.setAttribute('tabindex', '-1');
-                    targetElement.focus();
+                    //targetElement.focus();
                 }
             });
         });
@@ -172,6 +174,7 @@
         
         const highlightNav = function() {
             const scrollY = window.pageYOffset;
+            const navHeight = document.querySelector('nav').offsetHeight;
             
             sections.forEach(section => {
                 const sectionHeight = section.offsetHeight;
