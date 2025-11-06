@@ -112,7 +112,7 @@
                 // 2. Crie um novo formulário
                 // 3. Substitua 'YOUR_FORM_ID' abaixo pelo ID do seu formulário
                 
-                const FORMSPREE_ENDPOINT = 'https://formspree.io/f/YOUR_FORM_ID';
+                const FORMSPREE_ENDPOINT = 'https://formspree.io/f/xanlrdvl';
                 
                 const response = await fetch(FORMSPREE_ENDPOINT, {
                     method: 'POST',
